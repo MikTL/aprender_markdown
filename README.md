@@ -55,12 +55,31 @@ Citas
 ### Tablas
 
 | nombre | edad | estado civil |
-|---|---|---|
-Alexander | 28 | soltero |
-Carla | 25 |  casada |
+|---     |---   |---           | 
+Alexander| 28   | soltero      |
+Carla    | 25   |  casada      |
 Jaime | 35 | Divorciado| 
 
 ---
+### Para colocar codigo
+* En linea:
+    * Para declarar una variable en JS se hace asi: `let`
 
+* en bloque: Una funcion en js:
+    ``` js
+    function sumar(a,b){
+        return a+b
+    }
+    ```
+* Markdown tambien puede interpretar el lenguaje html:
+    <form>
+        <label for="q">Buscar:</label>
+        <input  type="search" id= "q" name= "q"></input>
+    </form>
 
-
+<!-- Comenterio -->
+----
+### Escape de caracteres
+por ejemplo, quisiera mostrar como se hacen las _cursivas_ y **negrita** en markdown:
+    \*\*negrita** y \_cursiva_ 
+ 
